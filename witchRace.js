@@ -2,10 +2,10 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 
 const player1Img = new Image();
-player1Img.src="images/pinkHat.webp";
+player1Img.src="pinkHat.webp";
 
 const player2Img = new Image();
-player2Img.src="images/purpleHat.webp";
+player2Img.src="purpleHat.webp";
 
 let player = {
     x:50,
